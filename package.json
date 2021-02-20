@@ -1,0 +1,26 @@
+{
+    "name": "bff-cli",
+    "version": "1.0.0",
+    "description": "初始BFF脚手架",
+    "main": "index.js",
+    "scripts": {
+        "dev": "egg-bin dev",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chenruijoker/BFF-Cli.git"
+    },
+    "author": "chenruijoker <2732914121@qq.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chenruijoker/BFF-Cli/issues"
+    },
+    "homepage": "https://github.com/chenruijoker/BFF-Cli#readme",
+    "dependencies": {
+        "egg": "^2.29.3"
+    },
+    "devDependencies": {
+        "egg-bin": "^4.15.0"
+    }
+}
