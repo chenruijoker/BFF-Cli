@@ -5,6 +5,7 @@ module.exports = (app) => {
     //此处都是测试接口部分
     router.get("/test/:id", controller.test.myRouter);
     router.get("/testGet", controller.test.testGet);
+    router.get("/testGetService",controller.test.testGetService);
 
     //首页重定向
     router.redirect("/", "/index", 302);
