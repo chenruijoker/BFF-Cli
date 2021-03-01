@@ -7,10 +7,9 @@ class TestController extends Controller {
     }
     async testGet() {
         const { ctx } = this;
-        console.log("-----------------------------------");
-        console.log(ctx);
         ctx.body = `厉害了${ctx.query.name}`;
     }
+
 }
 
 module.exports = TestController;
